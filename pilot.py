@@ -13,14 +13,14 @@ def notify_me():
     server.starttls()
     server.ehlo()
 
-    server.login('Kartikeyarai7@gmail.com', 'your-temperory-password-here')  #Switch off 2 factor authentication
+    server.login('primary_email_here', 'your-temperory-password-here')  #Switch off 2 factor authentication
     subject = 'Prices changed'
     body = 'Check Namshi  link https://en-ae.namshi.com/buy-adidas-originals-nmdr1-casual-mens-sneakers-shoes-w714476a.html . Reminding you to forget buying those slick adidas shoes causeyou still can not afford them!'
 
     msg = f"Subject = {subject}\n\n{body}"
     server.sendmail(
-        'Kartikeyarai7@gmail.com',
-        'f20170170@dubai.bits-pilani.ac.in',
+        'primary@gmail.com',
+        'secondary@gmail.com',
         msg 
     )
 
