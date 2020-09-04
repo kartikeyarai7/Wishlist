@@ -13,7 +13,7 @@ def notify_me():
     server.starttls()
     server.ehlo()
 
-    server.login('Kartikeyarai7@gmail.com', 'obilqvicamaliiyh')
+    server.login('Kartikeyarai7@gmail.com', 'your-temperory-password-here')  #Switch off 2 factor authentication
     subject = 'Prices changed'
     body = 'Check Namshi  link https://en-ae.namshi.com/buy-adidas-originals-nmdr1-casual-mens-sneakers-shoes-w714476a.html . Reminding you to forget buying those slick adidas shoes causeyou still can not afford them!'
 
